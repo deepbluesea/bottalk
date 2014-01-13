@@ -1,7 +1,7 @@
 This is a reddit bot that will scan through newly posted comments in posts in /r/all and compare each word of the post
 to a dictionary of commonly misspelled words.
 
-Usage:
+Format of Replies:
 
 - Multiple words
 
@@ -11,7 +11,7 @@ Usage:
 
   EDIT: word.. +word+*
     
-Run:
+Usage:
 
   1. bundle install in app dir
   2. ruby grammarnazi.rb
