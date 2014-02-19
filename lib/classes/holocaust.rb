@@ -12,7 +12,6 @@ class Holocaust
 		while true
 		  @gbot.r('all').comments.each do |com|
 		  	sr = com['subreddit']
-		  	unless sr == 'friendsafari' || sr == 'france' || sr == 'mexico' || sr == 'quebec' || sr == 'europe' 		
 			  	@com = com
 			  	comment = com.body.to_s
 			  	check_com(comment)
