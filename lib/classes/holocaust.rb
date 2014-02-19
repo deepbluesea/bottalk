@@ -31,7 +31,7 @@ class Holocaust
 		correct_comment(mis_words)
 	end
 
-	def correct_comment(words)
+	def correct_com(words)
 		if words.size > 1
 			@com.reply("EDIT: words.. #{words.join("*, ")}*")
 			puts @com.body
