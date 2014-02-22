@@ -2,7 +2,7 @@ class Holocaust
 
 	def initialize(username, password)
 		@gbot = Snooby::Client.new("#{username}, 0.1")
-		@gbot.authorize!("#{username}", "#{password}")
+		@gbot.authorize!(username, password)
 		dictionary = YAML.load_file(File.expand_path('../data/dictionary.yaml'))
 		@dictionary = dictionary[:words]
 		read_com
