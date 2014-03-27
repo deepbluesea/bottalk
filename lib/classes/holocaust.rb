@@ -28,7 +28,7 @@ class Holocaust
           mis_words = mis_words << word
         end
       end
-    correct_comment(mis_words)
+    correct_com(mis_words)
   end
 
   def correct_com(words)
